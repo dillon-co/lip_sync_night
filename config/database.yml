@@ -22,6 +22,6 @@ test:
 
 production:
   <<: *default
-  database: db/production
-  username: rails
+  database: lip_sync_battle_production
+  # username: rails
   password: <%= ENV['LIP_SYNC_BATTLE_DB_PASS'] %>
