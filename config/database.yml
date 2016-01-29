@@ -25,4 +25,4 @@ production:
   database: lip_sync_battle_production
   # username: rails
   password: <%= ENV['LIP_SYNC_BATTLE_DB_PASS'] %>
-  host: localhos
+  host: localhost
