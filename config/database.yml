@@ -23,3 +23,5 @@ test:
 production:
   <<: *default
   database: db/production
+  username: rails
+  password: <%= ENV['LIP_SYNC_BATTLE_DB_PASS'] %>
