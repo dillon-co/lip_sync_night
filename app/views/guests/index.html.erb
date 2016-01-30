@@ -1,25 +1,27 @@
-<div class="callout large column">
-  <div class="row callout">
-  <h1>Lip Sync Battle</h1>
-  <p class="lead">If you come and sing, all of your wildest dreams will come true.</p>
-
+<div class="container">
+  <div class="callout large column background">
+  <div class="row foreground">
+      <div class="title">  
+        <h1>LIP SYNC BATTLE</h1>
+      </div>
+  </div>    
+  </div>
+  <!-- <p class="lead">If you come and sing, all of your wildest dreams will come true.</p> -->
 </div>
-<hr>
+<div class="large-8 columns">
+  
 </div>
 <div class="row">
  <div class="large-4 columns panel">
   <%= form_for @new_guest do |f| %>
-    <h4>Your Name(s)</h4>
+    <h5>Your Name(s)</h5>
     <%= f.text_field :name%>
-    <h4>What song will you sing?</h4>
+    <h5>What song will you sing?</h5>
     <%= f.text_field :song %>
-    <h4>You're Included!</h4> <h5>If you can bring any food, type it here (seperated by commas).</h5>
+    <h5>You're Included!</h5> <h6>If you can bring any food, type it here (seperated by commas).</h6>
     <%= f.text_area :item_bringing %>
     <%= f.submit "I'm Coming!", class: 'small button' %>
   <% end %>  
-</div>
-<div class="large-8 columns">
-  <%= image_tag('IMG_6440.JPG') %>
 </div>
 
 

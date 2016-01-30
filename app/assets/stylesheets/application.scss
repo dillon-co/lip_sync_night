@@ -16,8 +16,37 @@
 
  */
 
+.container{
+    .title{
+      text-align: center;
+      border: 4px solid white;
+      color: white;
+      width: 500px; 
+      margin-top: 250px;
+      margin-bottom: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  .callout{
+    /*background-color: */
+    // background-image: image-url(Ellen-DeGeneres-Tonight-Show-JR-91015_copy); 
+    background-color: rgba(0,0,0,0.5);
+    background-image: image-url(big_ellen);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;  
+    min-height: 600px;
+    img {
+      z-index: -1;
+    }
+  }
+}
+h1{
+  color: white;
+}
 
-.callout{
-  text-align: center;
-  /*background-color: */
+
+.panel{
+  background-color: rgba(0.0,0.0,0.0,0);
+  border: 4px solid;
 }
